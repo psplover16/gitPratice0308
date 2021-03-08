@@ -10,15 +10,24 @@ export default class App extends Component {
         //這是master
         // 完整教學
         // https://backlog.com/git-tutorial/tw/stepup/stepup2_2.html
+        
         常用指令：
+        // https://blog.puckwang.com/post/2018/my_git_command_cheat_sheet/
         git init  //初始化git專案
         git add . //將多個文件變成待提交
         git status //查看檔案目前狀態
         git log //查看提交歷史紀錄
         git branch //查看分支清單
         git branch "name"  //建立分支
+          -d, --delete: 刪除已合併的分支。
+          -D: 刪除分支，即使他未合併。
+          -m, --move: 更名分支。
+          -M: 更名分支，即使目標分支已存在。
         git checkout "name" //切換分支
-        
+          -b "name": 建立新分支並切換過去。
+          -B "name": 建立新分支或重置已存在的分支並切換過去。
+        git merge "name"...  #將指定 Commit 合併到目前所在分支
+
         //
         1.安裝，https://git-scm.com/
         A.創建新專案(現有專案上傳)
