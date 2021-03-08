@@ -32,8 +32,8 @@ export default class App extends Component {
         8.git remote -v
         9.git push -f origin master 推送到github
         
-        B.下載專案
-        2.
+        B.下載專案,(原本專案就有再git
+        1.
         <img src={logo} alt={logo} />
       </div>
     );
