@@ -22,15 +22,19 @@ export default class App extends Component {
 
         1.安裝，https://git-scm.com/
         A.創建新專案(現有專案上傳)
-1.github創建新專案
-2.開啟gitbash
-3.用vscode開啟 專案
-4.git init 初始化git
-5.git add .   //將文件添加到新的本地存儲庫。這將它們暫存為第一次提交。
-
+        1.github創建新專案
+        2.開啟gitbash
+        3.用vscode開啟 專案
+        4.git init 初始化git
+        5.git add .   //將文件添加到新的本地存儲庫。這將它們暫存為第一次提交。
+        6.git commit -m "initial commit" //提交您在本地存儲庫中暫存的文件
+        7.git remote add origin github上的https或SSH
+        8.git remote -v
+        9.git push -f origin master 推送到github
+        
         B.下載專案
         2.
-        <img src={logo} alt={logo}/>
+        <img src={logo} alt={logo} />
       </div>
     );
   }
