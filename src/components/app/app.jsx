@@ -7,8 +7,19 @@ export default class App extends Component {
   render() {
     return (
       <div>
-//這是master
-
+        //這是master
+        // 完整教學
+        // https://backlog.com/git-tutorial/tw/stepup/stepup2_2.html
+        常用指令：
+        git init  //初始化git專案
+        git add . //將多個文件變成待提交
+        git status //查看檔案目前狀態
+        git log //查看提交歷史紀錄
+        git branch //查看分支清單
+        git branch "name"  //建立分支
+        git checkout "name" //切換分支
+        
+        //
         1.安裝，https://git-scm.com/
         A.創建新專案(現有專案上傳)
         1.github創建新專案
