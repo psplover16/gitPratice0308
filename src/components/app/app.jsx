@@ -7,17 +7,6 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        123456
-        第一次更動
-        First分支
-        簡易
-        https://www.youtube.com/watch?v=tO7XfKPAORM&ab_channel=KIDSu
-        教學
-        https://backlog.com/git-tutorial/tw/stepup/stepup2_3.html
-        創建
-        https://www.softwarelab.it/2018/10/12/adding-an-existing-project-to-github-using-the-command-line/
-        參考
-        https://gitbook.tw/chapters/github/push-to-github.html
 
 
         1.安裝，https://git-scm.com/
@@ -33,7 +22,24 @@ export default class App extends Component {
         9.git push -f origin master 推送到github
         
         B.下載專案,(原本專案就有再git
-        1.
+        1.vscode按下F1，輸入git clone 
+        貼上，github上的https或SSH
+        2.git Bash 登入
+        git config --global user.name "帳號"   //要加""
+        git config --global user.email "信箱"   //要加""
+
+
+      //參考
+        1.git clone
+          https://www.youtube.com/watch?v=tO7XfKPAORM&ab_channel=KIDSu
+        2.創建
+          https://www.softwarelab.it/2018/10/12/adding-an-existing-project-to-github-using-the-command-line/
+      **3.完整教學
+          https://backlog.com/git-tutorial/tw/stepup/stepup2_3.html
+        
+       
+
+        
         <img src={logo} alt={logo} />
       </div>
     );
